@@ -24,7 +24,6 @@ class Tx_Semantlink_Service_SemanticWebApiCall {
      * 
      * @return array
      */
-
     public function callZemantaApi($userInput) {
         $url = 'http://api.zemanta.com/services/rest/0.0/'; //Should be in a conf file
         $format = 'xml'; // May depend of your application context
